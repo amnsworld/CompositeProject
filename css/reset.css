@@ -1,7 +1,5 @@
 html {
 	box-sizing: border-box;
-	line-height: 1.25;
-	font-family: sans-serif;
 	font-size: 1.0em;
 }
 *, *::before, *::after {
@@ -11,6 +9,10 @@ html {
 }
 body {
 	margin: 0;
+	background-color:#fff;
+	color:#222;
+	line-height: 1.25;
+	font-family: sans-serif;
 }
 img {
 	max-width: 100%;
