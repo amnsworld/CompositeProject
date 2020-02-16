@@ -17,4 +17,22 @@
 
 .header-rows{
     display: flex;
+    justify-content: space-between;
+    height: 5em;
+    background-color: #fff;
+}
+.logo-area{
+    background-color: aquamarine;
+flex-basis: 7em;
+}
+.primary-navigation{
+    background-color:blanchedalmond;
+flex-basis: 40em;
+}
+.navigation-list{
+   display: flex; 
+}
+.login-buttons{
+    background-color: cadetblue;
+flex-basis: 20em;
 }
