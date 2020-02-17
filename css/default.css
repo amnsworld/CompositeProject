@@ -1,8 +1,12 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 .header-area{
     width:100%;
     height:100vh;
     background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.64) 35%, rgba(0,0,0,0.5830707282913166) 100%),url("/img/banner.jpg");
     background-size: cover;
+    position: relative;
 }
 
 .social-area{
@@ -71,11 +75,43 @@ li a{
 }
 
 .search-area{
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
+    position: absolute;
+    /*to align search area in center of the image use below property. make sure to make parent position as relative*/
+    content: "";
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
 }
 .first-tag-line{
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
 }
 .second-tag-line{
-    background-color: darkkhaki;
+    /* background-color: darkkhaki; */
+    font-family: Montserrat, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.search-boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.form-content{
+    flex-basis: calc(100% / 3);
+    margin: 1em;
+}
+.form-content input{
+   border:0em;
+   padding: 1em;
+   width:100%;
+   background-color: #fff;
+   border-radius: .5em;
 }
