@@ -157,3 +157,13 @@ li a{
     border-radius: 50%;
     display: inline-block;
   }
+  .category-circle-light-blue {
+    height: 200px;
+    width: 200px;
+    background-color: #B9D3F9;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
+  
