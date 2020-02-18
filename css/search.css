@@ -1,24 +1,40 @@
-.search-results-area{
-    background-color: red;
-    max-width: 80%;
-    margin: 0 auto;
-}
-.search-wrap{
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.search-results{
     display: flex;
-    width: 100%;
-}
-.search-result{
-    
-    background-color: cadetblue;
-    flex-basis: 30%;
+    max-width: 80%;
+    margin: 3em auto;
+    flex-wrap: wrap;
 }
 
-.search-result-content{
-    flex-basis: 70%;
-    background-color: burlywood;
+.search-result-box{
+    position: relative;
+    flex-basis: calc(90% /3);
+    /* border: 1px solid black; */
+    margin: 1em;
+    border-radius: 5px;
+    /* box-shadow: 5px 10px #eaeaea66; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.search-result-img{
-    width: 20px;
-    height: 20px;
+.search-result-box:hover{
+    transform: scale(1.1);
 }
+
+.search-result-img img{
+    width: 325px;
+    height: 15em;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 1em;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 5em;
+    left: 1em;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: #fff;
+  } 
