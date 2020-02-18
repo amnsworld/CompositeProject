@@ -1,11 +1,24 @@
 .search-results-area{
     background-color: red;
-    max-width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.search-wrap{
+    display: flex;
+    width: 100%;
+}
+.search-result{
+    
+    background-color: cadetblue;
+    flex-basis: 30%;
 }
 
-.search-result{
-    margin: 1em 0;
-    background-color:yellow;
-    height: 50px;
-    border: 1px solid black;
+.search-result-content{
+    flex-basis: 70%;
+    background-color: burlywood;
+}
+
+.search-result-img{
+    width: 20px;
+    height: 20px;
 }
