@@ -121,6 +121,10 @@ li a{
     justify-content: center;
 }
 
+input[type=submit]{
+    cursor: pointer;
+}
+
 .btn-search{
     flex-basis: calc(100% / 5);
     margin: 1em;

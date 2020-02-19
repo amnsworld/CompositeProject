@@ -1,6 +1,12 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+
+/* Header changes */
+
+
+/* Search results */
+
 .search-results{
     display: flex;
     max-width: 80%;
@@ -30,11 +36,26 @@
 }
 
 .bottom-left {
-    position: absolute;
-    bottom: 5em;
-    left: 1em;
     font-family: Montserrat, sans-serif;
     font-weight: bold;
     font-size: 1em;
-    color: #fff;
+    color: #000;
   } 
+
+  .search-result-ratings{
+    padding-left: 1em;
+    height: 4em;
+  }
+
+  .star-checked{
+      color: gold;
+  }
+  .location-marker{
+    width: 0.8em;
+  }
+
+  .search-results-address{
+      
+    line-height: 1em;
+    font-size: 0.9em;
+  }
