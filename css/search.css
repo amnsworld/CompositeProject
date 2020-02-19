@@ -3,7 +3,9 @@
 
 
 /* Header changes */
-
+.header-area{
+    height: 50vh;
+}
 
 /* Search results */
 
