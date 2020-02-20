@@ -39,10 +39,13 @@
     margin-top: 0.5em;
 }
 
+.other-images{
+    display: flex;
+}
 
 
-/* grid */
-.search-item-details{
+/* grid concept for images */
+/* .search-item-details{
     background-color: grey;
     width:80%;
     margin: 1em auto;
@@ -74,4 +77,5 @@
 .five { 
     background-color: green;     
     grid-area: 2 / 3 / 3 / 4;
-}
+} */
+
