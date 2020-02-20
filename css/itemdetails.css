@@ -2,7 +2,7 @@
 .search-details{
     max-width: 80%;
     margin: 1em auto;
-    height: 10em;
+    min-height: 13em;
 }
 
 .item-images-container{
@@ -37,4 +37,41 @@
 }
 .row2{
     margin-top: 0.5em;
+}
+
+
+
+/* grid */
+.search-item-details{
+    background-color: grey;
+    width:80%;
+    margin: 1em auto;
+	height: 30em;
+	display: grid;
+    grid-template-columns: 6fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.one { 
+	background-color: crimson; 
+	grid-area: 1 / 1 / 4 / 2;
+}
+.two { 
+    background-color: green; 
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.three { 
+    background-color: yellow;     
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.four { 
+    background-color: yellow;       
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.five { 
+    background-color: green;     
+    grid-area: 2 / 3 / 3 / 4;
 }
