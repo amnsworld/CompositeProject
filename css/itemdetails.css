@@ -1,0 +1,40 @@
+
+.search-details{
+    max-width: 80%;
+    margin: 1em auto;
+    height: 10em;
+}
+
+.item-images-container{
+    display: flex;
+}
+
+.item-images-selected{
+    flex-basis: 60%;
+}
+
+.item-images-other{   
+    margin: 0 0 0.5em 1em;
+    display: flex;
+    flex-direction: column;
+    width: 13em;
+    margin-bottom: 0.3em;
+}
+
+.other-img {
+    /* margin-bottom: 0.5em; */
+    filter: brightness(0.95);
+    transition: transform 0.4s ease-in-out 0s, filter 0.4s ease 0s;
+}
+
+.row1 img, .row2 img{
+    height: 12.8em;
+    width: 100%;
+}
+
+.row1{
+    margin-bottom: 0.5em;
+}
+.row2{
+    margin-top: 0.5em;
+}
