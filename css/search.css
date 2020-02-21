@@ -7,12 +7,16 @@
     height: 50vh;
 }
 
+.search-result-text{
+    margin-left: 6.3em;
+}
+
 /* Search results */
 
 .search-results{
     display: flex;
     max-width: 80%;
-    margin: 3em auto;
+    margin: 1em auto;
     flex-wrap: wrap;
 }
 
