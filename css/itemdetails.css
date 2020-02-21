@@ -169,4 +169,36 @@ hr {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    }
+}
+
+.tab-selected-detail-area{
+    background-color: #f3f3f3;
+    width:90%;
+    margin: 1em;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Tab selection area */
+.sub-text{
+    margin:0;
+    font-size: 0.75em;
+    color: #89959B;
+}
+.main-text{
+    margin-bottom: 0;
+}
+
+.tab-selected-details-text{
+    font-size: 0.9em;
+}
+
+.fa-check{
+    color: green;
+}
+
+.open-now-text{
+    font-size: 0.6em;
+    color: red;
+}
