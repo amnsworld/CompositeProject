@@ -54,4 +54,4 @@ input, textarea, button {
 }
 strong { font-weight: bold; }
 em { font-style: italic; }
-a { text-decoration: none; }
+a { text-decoration: none; color: black; }
